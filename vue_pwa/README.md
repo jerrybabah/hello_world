@@ -1,7 +1,7 @@
 # vue_pwa
 
 ## Demo
-[link](hello-pwa-vue.web.app)
+[link](https://hello-pwa-vue.web.app/)
 
 ## Project setup
 ```
