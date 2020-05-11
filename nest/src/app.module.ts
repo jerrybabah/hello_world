@@ -9,6 +9,6 @@ export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(LoggerMiddleware)
-      .forRoutes('cats');
+      .forRoutes(''); // 모든 요청에서 logger를 띄운다.
   }
 }
